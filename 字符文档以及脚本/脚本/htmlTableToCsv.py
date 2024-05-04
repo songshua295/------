@@ -3,7 +3,7 @@
 # Written on May 3,2024
 # By Songshua295
 # Function:
-# 将html格式中table转换成csv表格
+#           将html格式中table转换成csv表格
 
 import pandas as pd
 

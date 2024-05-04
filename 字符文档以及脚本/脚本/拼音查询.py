@@ -3,7 +3,7 @@
 # Written on May 3,2024
 # By Songshua295
 # Function:
-# 一行一个字的txt，在其后面添加上读音，用来辨别那些是没有读音的，用于剔除字库。
+#           一行一个字的txt，在其后面添加上读音，用来辨别那些是没有读音的，用于剔除字库。
 
 import csv
 from pypinyin import pinyin,lazy_pinyin,Style
