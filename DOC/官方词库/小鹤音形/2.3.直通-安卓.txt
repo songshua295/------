@@ -1,0 +1,263 @@
+----syntax=cn, code
+$cmd({time}:yyyy年M月d日,{time}:yyyy年M月d日)	orq
+$cmd({time}:yyyy-MM-dd,{time}:yyyy-MM-dd)	orq
+$cmd({cttg}:yMd,{cttg}:yMd)	onl
+$cmd({time}:HH:mm ddd,{time}:HH:mm ddd)	ouj
+$cmd({time}:H点m分,{time}:H点m分)	ouj
+$cmd({ctjq},{ctjq})	ojq
+$cmd(run(https://flypy.com),[小鹤官网])	xhgw
+$cmd(run(https://support.qq.com/embed/phone/607026#label=show),[社区])	xhgw
+$cmd(run(https://support.qq.com/embed/phone/607026#label=show),[小鹤社区])	xhg
+$cmd(run(http://flypy.ysepan.com),[小鹤网盘])	xhwp
+$cmd(run(https://flypy.cc),[小鹤入门])	xhrm
+$cmd(run(https://flypy.cc/#/sj),[安卓小鹤入门])	orm
+$cmd(intent(com.huawei.calculator),[华为计算器])	ojs
+$cmd(intent(com.miui.calculator),[小米计算器])	ojs
+$cmd(intent(bin.mt.plus),[MT2])	omt
+$cmd(set(reload),[重载])	oiz
+$cmd(set(reload),[重载])	ouz
+
+$cmd(#keyboard(<67+122+59+123>),[删行])	oui
+$cmd(#keyboard(<67+122+59+123>),[删行])	oiu
+$cmd(keyboard(<164>),[静音])	ojy
+
+$cmd(open(/storage/emulated/0/FlyPY_pro/小鹤音形/2.3.直通-安卓.txt),[直通.txt])	ovt
+$cmd(open(/storage/emulated/0/FlyPY_pro/小鹤音形/暗直通-安卓.txt),[暗直通.txt])	ovt
+$cmd(open(/storage/emulated/0/FlyPY_pro/小鹤音形/2.9.快符-安卓.txt),[快符.txt])	okf
+$cmd(open(/storage/emulated/0/FlyPY_pro/小鹤音形/2.9.快符-外接.txt),[ _外接.txt])	okf
+$cmd(open(/storage/emulated/0/FlyPY_pro/小鹤音形/2.8.符号.txt),[符号.txt])	ofh
+$cmd(open(/storage/emulated/0/FlyPY_pro/小鹤音形/暗补全-诗词.txt),[暗诗词.txt])	oau
+
+$cmd(show(配置目录),[安装目录])	oav
+$cmd(show(方案目录),[词库目录])	ock
+$cmd(show(皮肤目录),[目录])	opf
+$cmd(show(键盘选择),[键盘])	opf
+$cmd(show(配色选择),[配色])	opf
+
+$cmd(show(ime),[高级设置])	ogj
+
+$cmd(openf(/storage/emulated/0/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/),[QQ文件夹])	qqwj
+$cmd(set(assoc-dual=1),[启用暗词库])	oak
+$cmd(set(assoc-dual=0),[关闭])	oak
+$cmd(set(assoc-enable=1),[启用联想])	olx
+$cmd(set(assoc-enable=0),[关闭])	olx
+
+$cmd(syncconfig,[立刻同步])	ootb
+$cmd(set(webdav-auto=1),[启用自动同步])	ootb
+$cmd(set(webdav-auto=0),[关闭自动同步])	oot
+
+$cmd(uploadconfig,[上传同步])	ooui
+$cmd(downloadconfig,[下载同步])	ooxz
+
+$cmd(open(/storage/emulated/0/FlyPY_pro/小鹤音形/暗首选.txt),[暗首选.txt])	oax
+$cmd(open(/storage/emulated/0/FlyPY_pro/小鹤音形/暗纠错.txt),[暗纠错.txt])	oax
+
+$cmd(set(ime-candiwin=1;ime-statuswin=1;kb-keyshowcandi=0),[栏显])	ohx
+$cmd(set(ime-candiwin=0;ime-statuswin=0;kb-keyshowcandi=1;kb-keyshowcanditype=1),[键显])	ohx
+$cmd(set(ime-candiwin=0;ime-statuswin=0;kb-keyshowcandi=1;kb-keyshowcanditype=2+3+4+5+6+8),[盲打])	ohx
+$cmd(set(ime-showorder=1;orderspilt=_),[显示序号])	ooxh
+$cmd(set(ime-showorder=0;orderspilt=_),[不显])	ooxh
+
+$cmd(set(kb-keycandiusecandicolor=0),[键候选统一配色])	ohxs
+$cmd(set(kb-keycandiusecandicolor=1),[暗词跟随])	ohxs
+
+$cmd(autosearch,[浏览器])	oss
+$cmd(autosearch(https://www.baidu.com/s?wd={word}),[百度])	oss
+$cmd(autosearch(https://cn.bing.com/search?q={word}),[Bing])	oss
+
+$cmd(run(https://www.zdic.net/hans/{cursorbefore}),→[汉典])	ozd
+$cmd(run(https://zi.tools/zi/{cursorbefore}),→[字统])	ozd
+$cmd(　　　静夜思·李白\r\n床前明月光，疑是地上霜。\r\n举头望明月，低头思故乡。\r\n,『静夜思』)	jysi
+$cmd(　　　　蜀道难·李白\r\n\r\n噫吁嚱，危乎高哉！蜀道之难难于上青天！\r\n蚕丛及鱼凫，开国何茫然！\r\n尔来四万八千岁，不与秦塞通人烟。\r\n西当太白有鸟道，可以横绝峨眉巅。\r\n地崩山摧壮士死，然后天梯石栈相钩连。\r\n上有六龙回日之高标，下有冲波逆折之回川。\r\n黄鹤之飞尚不得过，猿猱欲度愁攀援。\r\n青泥何盘盘，百步九折萦岩峦。\r\n扪参历井仰胁息，以手抚膺坐长叹。\r\n问君西游何时还？畏途巉岩不可攀。\r\n但见悲鸟号古木，雄飞雌从绕林间。\r\n又闻子规啼夜月，愁空山。\r\n蜀道之难难于上青天，使人听此凋朱颜！\r\n连峰去天不盈尺，枯松倒挂倚绝壁。\r\n飞湍瀑流争喧豗，砯崖转石万壑雷。\r\n其险也如此，嗟尔远道之人，胡为乎来哉！\r\n剑阁峥嵘而崔嵬，一夫当关，万夫莫开。\r\n所守或匪亲，化为狼与豺，\r\n朝避猛虎，夕避长蛇，磨牙吮血，杀人如麻。\r\n锦城虽云乐，不如早还家。\r\n蜀道之难，难于上青天，侧身西望长咨嗟！\r\n,『蜀道难·李白』)	udnj
+
+$cmd(set(kb-preview=?),[气泡提示开关])	oqp
+$cmd(set(ime-embedmode=1),[嵌入编码])	oqr
+$cmd(set(ime-embedmode=2),[首选])	oqr
+$cmd(set(ime-embedmode=0),[关闭])	oqr
+$cmd(set(kb-autonightmode=1),[日夜跟随系统])	ory
+$cmd(set(kb-autonightmode=0),[不跟随])	ory
+$cmd(intent(com.tencent.mm), [微信])	owx
+
+$cmd(set(kb-landscapefloatfollow=0;kb-landscapefloat=1;kb-landscapewidth=1080),[悬浮单手])	ohp
+$cmd(set(kb-landscapefloatfollow=1;kb-landscapefloat=1;kb-landscapewidth=2160),[双手])	ohp
+$cmd(set(kb-landscapefloat=0),[全屏])	ohp
+
+$cmd(set(kb-vibrator=?),[震动开关])	ovd
+$cmd(set(kb-keymusic=?),[音效开关])	oyx
+$cmd(set(kb-hardwarefloat=0),[外接_固定])	oogd
+$cmd(set(kb-hardwarefloat=1),[ _悬浮])	oogd
+
+$cmd(control(lighton),[手电筒_开])	ooud
+$cmd(control(lightoff),[ _关])	ooud
+$cmd(control(bluetooth),[蓝牙])	ooly
+$cmd(control(wifi),[wifi])	oowf
+$cmd(control(nfc),[NFC])	onfc
+
+$cmd(show(设置),[设置菜单])	ocd
+
+$cmd(set(ime-hans2hant=?), [简繁切换])	ojf
+$cmd(set(ime-cnuseensymbol=?), [中英标点切换])	ovy
+$cmd(set(ime-quanjiao=?), [全半角切换])	oqb
+
+$cmd(run(mqqwpa://im/chat?chat_type=group&uin=182883808), [小鹤Q群])	xhqq
+
+$cmd(set(kb-label=0;kb-smalllabel=0),[全有])	owk
+$cmd(set(kb-label=2;kb-smalllabel=2),[全无])	owk
+$cmd(set(kb-label=1;kb-smalllabel=1),[无刻])	owk
+$cmd(set(kb-label=0;kb-smalllabel=1),[无标])	owk
+$cmd(set(kb-label=2;kb-smalllabel=0),[中空])	owk
+$cmd(set(kb-label=1;kb-smalllabel=0),[字母空])	owk
+
+$cmd(set(base-skin-android=键盘——放飞.xpa;scheme-kb-label=0;scheme-kb-smalllabel=0),[键盘放飞])	ojff
+$cmd(set(base-skin-android=键盘——放飞-②.xpa;scheme-kb-label=0;scheme-kb-smalllabel=0),[放飞②])	ojff
+$cmd(set(base-skin-android=键盘——高飞.xpa;scheme-kb-label=0;scheme-kb-smalllabel=0),[键盘高飞])	ojgf
+$cmd(set(base-skin-android=键盘——高飞-②.xpa;scheme-kb-label=0;scheme-kb-smalllabel=0),[高飞②])	ojgf
+$cmd(set(base-skin-android=键盘——小鹤.xpa;scheme-kb-label=0;scheme-kb-smalllabel=0),[键盘小鹤])	ojxh
+$cmd(set(base-skin-android=键盘——小鹤-②.xpa;scheme-kb-label=0;scheme-kb-smalllabel=0),[小鹤②])	ojxh
+$cmd(set(base-skin-android=键盘——展翅.xpa;scheme-kb-label=0;scheme-kb-smalllabel=0),[键盘展翅])	ojvi
+$cmd(set(base-skin-android=键盘——展翅-②.xpa;scheme-kb-label=0;scheme-kb-smalllabel=0),[展翅②])	ojvi
+
+$cmd(set(base-skin-android=键盘——助记快符.xpa;scheme-kb-smalllabel=0),[快符助记])	ovkf
+$cmd(set(base-skin-android=键盘——助记双拼.xpa;scheme-kb-smalllabel=0),[双拼助记])	ovup
+$cmd(set(base-skin-android=键盘——助记部件.xpa;scheme-kb-smalllabel=0),[部件助记])	ovbj
+$cmd(set(base-skin-android=键盘——助记直通.xpa;scheme-kb-smalllabel=0),[直通助记])	ovvt
+$cmd(set(base-skin-android=键盘——助记一简.xpa;scheme-kb-smalllabel=0),[一简助记])	ovyj
+$cmd(set(base-skin-android=键盘——助记偏旁.xpa;scheme-kb-smalllabel=0),[偏旁助记])	ovpp
+
+$cmd(setbase(color-android=配色——小鹤.xp),[配色小鹤])	opxh
+$cmd(setbase(color-android=配色——出彩.xp),[配色出彩])	opic
+$cmd(setbase(color-android=配色——iOS.xp),[配色IOS])	opio
+
+$cmd(clipboard,[剪贴板])	ojt
+$cmd(set(ime-clipkeepdays=0),[一天])	ojt
+$cmd(set(ime-clipkeepdays=6),[七天])	ojt
+$cmd(set(ime-clipmaxcount=20),[剪贴20条])	ojtb
+$cmd(set(ime-clipmaxcount=50),[50条])	ojtb
+$cmd(set(ime-clipmaxcount=100),[100条])	ojtb
+
+$cmd(show(输入法选择),[选择输入法])	ourf
+
+$cmd(set(ime-blockkeys=-1),[快符引导])	oyd
+$cmd(set(ime-blockkeys=\),[关闭])	oyd
+
+$cmd(set(kb-autochangekeyboardtype=1),[识别密码键盘])	omm
+$cmd(set(kb-autochangekeyboardtype=0),[关闭])	omm
+
+$cmd(set(kb-padleft=5;kb-padright=53;kb-keyboardheightscale=1.1),[左手])	ozy
+$cmd(set(kb-padleft=50;kb-padright=8;kb-keyboardheightscale=1.1),[右手])	ozy
+$cmd(set(kb-padleft=5;kb-padright=8;kb-keyboardheightscale=1.2),[还原])	ozy
+
+$cmd(togglekeyboard(1), [英文键盘])	ofyw
+$cmd(togglekeyboard(2), [功能键盘])	ofgn
+$cmd(togglekeyboard(3), [编辑键盘])	ofbj
+$cmd(togglekeyboard(4), [数字键盘])	ofuz
+$cmd(togglekeyboard(5), [中符键盘])	ofvf
+$cmd(togglekeyboard(6), [英符键盘])	ofyf
+$cmd(togglekeyboard(7), [表情键盘])	ofbq
+$cmd(togglekeyboard(8), [特符键盘])	oftf
+
+$cmd(set(kb-candisize=18;kb-ordersize=16;kb-codesize=16),[候选18号])	ohz
+$cmd(set(kb-candisize=19;kb-ordersize=17;kb-codesize=17),[大1])	ohz
+$cmd(set(kb-candisize=17;kb-ordersize=15;kb-codesize=15),[小1])	ohz
+
+$cmd(set(kb-size=19;kb-longsize=14;kb-keycandisize=15),[键字19号])	ojz
+$cmd(set(kb-size=20;kb-longsize=15;kb-keycandisize=16),[大1])	ojz
+$cmd(set(kb-size=18;kb-longsize=13;kb-keycandisize=14),[小1])	ojz
+
+$cmd(set(kb-keyboardheightscale=1.2),[键盘高1.2])	ogd
+$cmd(set(kb-keyboardheightscale=1.3),[1.3])	ogd
+$cmd(set(kb-keyboardheightscale=1.1),[1.1])	ogd
+
+$cmd(set(kb-padbottom=5),[垫高5])	odg
+$cmd(set(kb-padbottom=20),[+15])	odg
+$cmd(set(kb-padbottom=-10),[-15])	odg
+
+$cmd(set(kb-candifont=0;kb-labelfont=0;kb-smallfont=0;kb-candiblodfont=0;kb-labelblodfont=0;kb-smallblodfont=0),[系统字体])	ozt
+$cmd(set(kb-candifont=ziti.ttf;kb-labelfont=ziti.ttf;kb-smallfont=ziti.ttf;kb-candiblodfont=ziti.ttf;kb-labelblodfont=ziti.ttf;kb-smallblodfont=ziti.ttf),[自定])	ozt
+$cmd(set(kb-blob=?),[粗细])	ozt
+
+$cmd(deletelast,[撤销上屏])	okxh
+$cmd(\t,\t)	okdh
+
+$cmd(rawhttp({"method":"get","url":"https://query.asilu.com/weather/baidu/?city=$selection$$line$","push":"天气: +$.weather[0].weather+, +$.weather[0].temp"}),[*天气])	oltq
+$cmd(rawhttp({"method":"get","url":"https://query.asilu.com/weather/baidu/?city=$selection$$line$","push":"明天天气: +$.weather[1].weather+, +$.weather[1].temp"}),[*明天])	oltq
+
+$cmd(embed,[调整嵌入类型])	obox
+$cmd(keyboardtype,[调整键盘类型])	obox
+$cmd(quicktext,[调整初始文本])	obox
+
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"zh","text_list":["","$selection$$line$",""]},"target":{"lang":"en"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线中->英])	olvy
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"en","text_list":["","$selection$$line$",""]},"target":{"lang":"zh"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线英->中])	olyv
+
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"zh","text_list":["","$selection$$line$",""]},"target":{"lang":"de"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线中->德])	olvd
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"de","text_list":["","$selection$$line$",""]},"target":{"lang":"zh"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线德->中])	oldv
+
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"zh","text_list":["","$selection$$line$",""]},"target":{"lang":"ct"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线汉->粤])	olhy
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"ct","text_list":["","$selection$$line$",""]},"target":{"lang":"zh"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线粤->汉])	olyh
+
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"zh","text_list":["","$selection$$line$",""]},"target":{"lang":"ja"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线中->日])	olvr
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"zh","text_list":["","$selection$$line$",""]},"target":{"lang":"ko"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线中->韩])	olvh
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"zh","text_list":["","$selection$$line$",""]},"target":{"lang":"th"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线中->泰])	olvt
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"zh","text_list":["","$selection$$line$",""]},"target":{"lang":"fr"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线中->法])	olvf
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"zh","text_list":["","$selection$$line$",""]},"target":{"lang":"es"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线中->西])	olvx
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"zh","text_list":["","$selection$$line$",""]},"target":{"lang":"ru"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线中->俄])	olve
+
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"ja","text_list":["","$selection$$line$",""]},"target":{"lang":"zh"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线日->中])	olrv
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"ko","text_list":["","$selection$$line$",""]},"target":{"lang":"zh"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线韩->中])	olhv
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"th","text_list":["","$selection$$line$",""]},"target":{"lang":"zh"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线泰->中])	oltv
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"fr","text_list":["","$selection$$line$",""]},"target":{"lang":"zh"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线法->中])	olfv
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"es","text_list":["","$selection$$line$",""]},"target":{"lang":"zh"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线西->中])	olxv
+$cmd(rawhttp({"method":"post","url":"https://transmart.qq.com/api/imt","data":{"header":{"fn":"auto_translation","session":"","client_key":"browser-edge-chromium-118.0.0-Windows10-f9ee2d26-6fef-458e-8053-55251b67bb14-1693640131209","user":""},"type":"plain","model_category":"normal","text_domain":"general","source":{"lang":"ru","text_list":["","$selection$$line$",""]},"target":{"lang":"zh"}},"headers":{"content-type":"application/json"},"push":"$.auto_translation[1]","delete":"1"}),[在线俄->中])	olev
+
+$cmd(newguid,[随机GUID])	ogid
+$cmd(randompwd,[随机密码])	osjm
+$cmd(md5($line$$clip$),[md5])	omdw
+$cmd(quan2ban($line$$clip$),[全角转半角])	oovb
+$cmd(ban2quan($line$$clip$),[半角转全角])	oovq
+
+$cmd(set(ime-engwordcount=1),[语句模式英文])	ooyw
+$cmd(set(ime-engwordcount=0),[关闭])	ooyw
+
+$cmd(xfai_send($box$$clip$),[AI回复])	olai
+$cmd(timestamp($line$$clip$),[时间戳])	ouji
+
+$cmd(set(kb-landscapealpha=0.9),[透明度0.9])	otmd
+$cmd(set(kb-landscapealpha=0.6),[0.6])	otmd
+$cmd(set(kb-landscapealpha=1.0),[1.0])	otmd
+
+$cmd(set(assoc-enable=1;ime-empty=3;ime-pushwhengemax=1;ime-emptymaxlen=0),[传统])	omu
+$cmd(set(assoc-enable=1;ime-empty=2;ime-emptypushtype=0;ime-pushwhengemax=1;ime-emptyautopush=1;ime-emptycuttype=1;ime-emptymaxlen=4;ime-emptydinglen=4;ime-engwordcount=0),[切分])	omu
+$cmd(set(assoc-enable=1;ime-empty=2;ime-emptypushtype=0;ime-pushwhengemax=0;ime-emptyautopush=0;ime-emptycuttype=1;ime-emptymaxlen=100;ime-emptydinglen=8;ime-engwordcount=1),[语句])	omu
+$cmd(set(assoc-enable=0;ime-empty=2;ime-emptypushtype=1;ime-pushwhengemax=0;ime-emptyautopush=0;ime-emptycuttype=1;ime-emptymaxlen=120;ime-emptydinglen=8;ime-engwordcount=0),[整句])	ovj
+$cmd(newkey(omu$1),[传统])	ovj
+
+$cmd(set(ime-inputmode=1;ime-usedassisttype=-5;kb-spacetext=- 小鹤),[熟手])	ojj
+$cmd(set(ime-inputmode=1;ime-usedassisttype=+5;kb-spacetext=  小鹤),[常规])	ojj
+$cmd(set(ime-inputmode=2;ime-usedassisttype1=+5;kb-spacetext=+小鹤),[初学])	ojj
+
+$cmd(set(ime-usedassisttype=+1;ime-usedassisttype=-2;ime-usedassisttype1=+1;ime-usedassisttype1=-2),[二重简码②])	oei
+$cmd(set(ime-usedassisttype=-1;ime-usedassisttype=+2;ime-usedassisttype1=-1;ime-usedassisttype1=+2),[默认①])	oei
+
+$cmd(set(ime-usedassisttype=+1;ime-usedassisttype=+2;ime-usedassisttype1=+1;ime-usedassisttype1=+2),[三重简码])	osi
+$cmd(set(ime-usedassisttype=-1;ime-usedassisttype=+2;ime-usedassisttype1=-1;ime-usedassisttype1=+2),[默认])	osi
+
+$cmd(set(ime-inputmode=2;kb-spacetext=+小鹤),+<全码字>)	oqm
+$cmd(set(ime-inputmode=1;kb-spacetext=  小鹤),[隐藏])	oqm
+
+$cmd(set(ime-inputmode=1;ime-usedassisttype=-1;ime-usedassisttype=+2;ime-usedassisttype1=-1;ime-usedassisttype1=+2;ime-usedassisttype=+5;kb-spacetext=  小鹤;ime-candiwin=1;ime-statuswin=1;kb-keyshowcandi=0;kb-keyshowcanditype=1;assoc-dual=1;assoc-enable=1;assoc-assocdual=1),→[默认态])	omr
+
+$cmd(set(ime-hint=1),[提示编码])	ootu
+$cmd(set(ime-hint=0),[默认])	ootu
+
+$cmd(set(main_mb-file2=1.2.二简词提示.txt),[启用_二简词提示])	ooej
+$cmd(set(main_mb-file2=0),[关闭])	ooej
+$cmd(set(main_mb-file2=0),[关闭二简词提示])	ooe
+
+$cmd(show(user),[打开词库])	ojc
+$cmd(addword,[加])	ojc
+$cmd(deleteword,[删])	ojc
+$cmd(open(/storage/emulated/0/FlyPY_pro/小鹤音形/2.3.用户词库.txt),[打开内词库])	oyh
+$cmd(open(/storage/emulated/0/Documents/小鹤音形/小鹤用户词库.txt),[打开外词库])	oyh
+$cmd(set(ime-sysuserpath=2.3.用户词库.txt),[启用内加词])	oojc
+$cmd(set(ime-sysuserpath=/storage/emulated/0/Documents/小鹤音形/小鹤用户词库.txt),[启用外加词])	oojc
+$cmd(set(ime-sysuserpath=/storage/emulated/0/Documents/小鹤音形/小鹤用户词库.txt),[启用外加词])	ooj

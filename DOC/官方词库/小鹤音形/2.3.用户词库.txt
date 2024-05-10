@@ -1,0 +1,29 @@
+-- 用户词库
+-- 规则加删词方式产生的词条进入本文件（默认，可使用oyh2切换到外词库）
+-- ①规则加词方式：编码+空格+词条+ojc2
+-- --直接编码格式：词条+TAB符+编码
+-- ②居首的方式：编码+空格+词条+空格+g(字母)+ojc2
+-- --直接编码格式：词条+TAB符+编码#固
+-- ③规则删词方式：编码+空格+词条+ojc3
+-- --直接编码格式：词条+TAB符+编码#删
+-- ④快符规则替换方式：编码+空格+词条+空格+y(字母)+ojc2
+-- --直接编码格式：词条+TAB符+编码#\   （实体键盘把 \ 换成 ; ）
+-- ------- AI功能 ----------
+-- 注册：https://xinghuo.xfyun.cn/  开通星火大模型一年免费
+-- 把appId,appKey,appSecret参数填入下面直通内容的对应位置，讯飞版本选一个就好，，oiz重载后 ooai把参数写入配置
+$cmd(set(xfai-enable=1;xfai-url=https://spark-api.xf-yun.com/v3.5/chat;xfai-appid=参数;xfai-appkey=参数;xfai-appsecret=参数;xfai-userid=随便填一个名;xfai-version=generalv3.5),[AI_3.5参数写入])	ooai
+$cmd(set(xfai-enable=1;xfai-url=https://spark-api.xf-yun.com/v3.1/chat;xfai-appid=参数;xfai-appkey=参数;xfai-appsecret=参数;xfai-userid=随便填一个名;xfai-version=generalv3),[3.0])	ooai
+$cmd(set(xfai-enable=1;xfai-url=https://spark-api.xf-yun.com/v2.1/chat;xfai-appid=参数;xfai-appkey=参数;xfai-appsecret=参数;xfai-userid=随便填一个名;xfai-version=generalv2),[2.0])	ooai
+$cmd(set(xfai-enable=1;xfai-url=https://spark-api.xf-yun.com/v1.1/chat;xfai-appid=参数;xfai-appkey=参数;xfai-appsecret=参数;xfai-userid=随便填一个名;xfai-version=general),[1.5])	ooai
+$cmd(set(xfai-enable=0;xfai-url=0;xfai-appid=0;xfai-appkey=0;xfai-appsecret=0;xfai-userid=0),[清空])	ooai
+-- 输入你想要AI回复的内容，使用 .m, 或 olai 得到回复
+-- ------- webdav同步功能 ----------
+$cmd(set(webdav-server=服务器地址;webdav-username=用户名;webdav-password=密码),[webdav信息写入])	oweb
+$cmd(set(webdav-server=0;webdav-username=0;webdav-password=0),[清空])	oweb
+$cmd(set(webdav-server=0;webdav-username=0;webdav-password=0),[清空webdav信息])	owe
+$cmd(set(webdav-upblockfilter=binary-mbs|skins|*.merge|*.bak;webdav-upwhitefilter=2.3*;webdav-downblockfilter=*-win.txt;webdav-downwhitefilter=*.*),[安卓-黑白名单])	oamd
+$cmd(set(webdav-upblockfilter=上传黑名单;webdav-upwhitefilter=上传白名单;webdav-downblockfilter=下载黑名单;webdav-downwhitefilter=下传白名单),[自定])	oamd
+$cmd(set(webdav-upblockfilter=statistics|binary-mbs|skins|*.merge|*.bak;webdav-upwhitefilter=2.3*;webdav-downblockfilter=statistics|binary-mbs|skins|*.merge|*.bak;webdav-downwhitefilter=*.*),[WIN-黑白名单])	owmd
+$cmd(set(webdav-upblockfilter=上传黑名单;webdav-upwhitefilter=上传白名单;webdav-downblockfilter=下载黑名单;webdav-downwhitefilter=下传白名单),[自定])	owmd
+
+-- 此行后开始添加自己的词条或添加到指定词库
