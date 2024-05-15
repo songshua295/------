@@ -1,6 +1,6 @@
-----syntax=cn, code
--- 附属词库：次选、随心
--- 次选
+----syntax=cn,	code
+--	附属词库：次选、随心
+--	次选
 饥渴	jike
 指导	vidc
 以下	yixx
@@ -1759,8 +1759,7 @@
 嘴上一套	zuyt
 载誉归来	zygl
 自怨自艾	zyzy
-
--- 随心
+--	随心
 $cmd(辨,辨)	bmld
 $cmd(辫,辫)	bmls
 单元	dye

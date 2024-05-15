@@ -1,0 +1,104 @@
+----matchcode=okxh
+-- 暗直通，转码okxh，避开常规转码okxh的冲突
+-- 格式：前缀#前缀#前缀#后缀#okxh#1#1
+-- 前缀数量不限，前缀如含[]，里面内容为可打可不打
+-- 使用方法：前缀+引导键+空格
+无重#$cmd(newkey(owi$1),一简无重)#okxh#1#1
+二重#$cmd(newkey(oei$1),二重简码)#okxh#1#1
+三重#$cmd(newkey(osi$1),三重简码)#okxh#1#1
+一简#$cmd(newkey(ovyj$1),一简词助记)#okxh#1#1
+眼#$cmd(newkey(ovyj$1),一简词助记)#okxh#1#1
+撇#$cmd(newkey(ovpp$1),偏旁助记)#okxh#1#1
+肯#$cmd(newkey(ovkf$1),快符助记)#okxh#1#1
+办#$cmd(newkey(ovbj$1),部件助记)#okxh#1#1
+折腾#$cmd(newkey(ovvt$1),直通助記)#okxh#1#1
+跟#$cmd(newkey(ojgf$1),默认键盘)#okxh#1#1
+高飞#$cmd(newkey(ojgf$1),默认键盘)#okxh#1#1
+双拼#$cmd(newkey(ovup$1),双拼助记)#okxh#1#1
+部件#$cmd(newkey(ovbj$1),部件助記)#okxh#1#1
+雙拼#$cmd(newkey(ovup$1),雙拼助記)#okxh#1#1
+快符#$cmd(newkey(ovkf$1),快符助記)#okxh#1#1
+直通#$cmd(newkey(ovvt$1),直通助記)#okxh#1#1
+繁体#$cmd(newkey(ojf$1),轉繁體)#okxh#1#1
+簡體#$cmd(newkey(ojf$1),转简体)#okxh#1#1
+全角#$cmd(set(ime-quanjiao=1), 全角)#okxh#1#1
+半角#$cmd(set(ime-quanjiao=0), 半角)#okxh#1#1
+重载#$cmd(newkey(oiz$1),重载)#okxh#1#1
+重載#$cmd(newkey(oiz$1),重載)#okxh#1#1
+喜欢#$cmd(newkey(xhqq),xh小鹤群)#okxh#1#1
+喜歡#$cmd(newkey(xhqq),xh小鹤群)#okxh#1#1
+
+高度默认#$cmd(newkey(ogd$1),默认键盘高)#okxh#1#1
+高度中#$cmd(newkey(ogd$1),默认键盘高)#okxh#1#1
+高度高#$cmd(newkey(ogd$2),键盘高一点)#okxh#1#1
+高度低#$cmd(newkey(ogd$3),键盘低一点)#okxh#1#1
+更#$cmd(newkey(ogd$1),GG高度中)#okxh#1#1
+根本#$cmd(newkey(ogd$2),GB高度高)#okxh#1#1
+干嘛#$cmd(newkey(ogd$3),GM高度低)#okxh#1#1
+
+垫高默认#$cmd(newkey(odg$1),默认键盘垫高)#okxh#1#1
+垫高中#$cmd(newkey(odg$1),默认键盘垫高)#okxh#1#1
+垫高高#$cmd(newkey(odg$2),垫高一点)#okxh#1#1
+垫高低#$cmd(newkey(odg$3),垫低一点)#okxh#1#1
+代#$cmd(newkey(odg$1),DD默认键盘垫高)#okxh#1#1
+代表#$cmd(newkey(odg$2),DB垫高一点)#okxh#1#1
+点#$cmd(newkey(odg$3),DM垫低一点)#okxh#1#1
+
+键字默认#$cmd(newkey(ojz$1),默认键字体)#okxh#1#1
+键字中#$cmd(newkey(ojz$1),默认键字体)#okxh#1#1
+键字大#$cmd(newkey(ojz$2),大一号)#okxh#1#1
+键字小#$cmd(newkey(ojz$3),小一号)#okxh#1#1
+解决#$cmd(newkey(ojz$1),JJ键字中)#okxh#1#1
+进#$cmd(newkey(ojz$2),JB键字大)#okxh#1#1
+间#$cmd(newkey(ojz$3),JM键字小)#okxh#1#1
+
+候选默认#$cmd(newkey(ohz$1),默认候选字体)#okxh#1#1
+候选中#$cmd(newkey(ohz$1),默认候选字体)#okxh#1#1
+候选大#$cmd(newkey(ohz$2),候选字体大一号)#okxh#1#1
+候选小#$cmd(newkey(ohz$3),候选字体小一号)#okxh#1#1
+行#$cmd(newkey(ohz$1),HH候字中)#okxh#1#1
+何必#$cmd(newkey(ohz$2),HB候字大)#okxh#1#1
+后面#$cmd(newkey(ohz$3),HM候字小)#okxh#1#1
+
+系统字体#$cmd(newkey(ozt$1),系统字体)#okxh#1#1
+系统字#$cmd(newkey(ozt$1),系统字体)#okxh#1#1
+自定字体#$cmd(newkey(ozt$2),自定字体)#okxh#1#1
+自定字#$cmd(newkey(ozt$2),自定字体)#okxh#1#1
+下#$cmd(newkey(ozt$1),XX系统字体)#okxh#1#1
+走#$cmd(newkey(ozt$2),ZZ自定字体)#okxh#1#1
+
+暧昧#$cmd(newkey(olyh$1),AM 粤汉)#okxh#1#1
+什么#$cmd(newkey(olyv$1),SM 英中)#okxh#1#1
+点#$cmd(newkey(oldv$1),DM 德中)#okxh#1#1
+
+熟手#$cmd(newkey(ojj$1),熟手词库模式)#okxh#1#1
+常规#$cmd(newkey(ojj$2),常规词库模式)#okxh#1#1
+初学#$cmd(newkey(ojj$3),初学词库模式)#okxh#1#1
+
+传统#$cmd(newkey(omu$1),传统输入模式)#okxh#1#1
+切分#$cmd(newkey(omu$2),切分输入模式)#okxh#1#1
+缺乏#$cmd(newkey(omu$2),切分输入模式)#okxh#1#1
+语句#$cmd(newkey(omu$3),语句输入模式)#okxh#1#1
+眼#$cmd(newkey(omu$3),语句输入模式)#okxh#1#1
+整句#$cmd(newkey(ovj$1),整句输入模式)#okxh#1#1
+占#$cmd(newkey(ovj$1),整句输入模式)#okxh#1#1
+
+数#$cmd(newkey(ourf$1),输入法切换)#okxh#1#1
+输入法#$cmd(newkey(ourf$1),输入法切换)#okxh#1#1
+滨#$cmd(clipboard,[剪贴板])#okxh#1#1
+
+网盘#$cmd(run(http://flypy.ysepan.com/),网盘)#okxh#1#1
+入门#$cmd(newkey(orm$1),入门)#okxh#1#1
+官网#$cmd(run(https://flypy.com),官网)#okxh#1#1
+输入法#$cmd(newkey(ourf$1),切换输入法)#okxh#1#1
+
+在#$cmd(newkey(oftf$1),Z特符)#okxh#1#1
+小#$cmd(newkey(ojt$1),X剪贴)#okxh#1#1
+纔#$cmd(newkey(ofvf$1),C中符)#okxh#1#1
+才#$cmd(newkey(ofvf$1),C中符)#okxh#1#1
+這#$cmd(newkey(ofyf$1),V英符)#okxh#1#1
+这#$cmd(newkey(ofyf$1),V英符)#okxh#1#1
+没#$cmd(newkey(ofbq$1),eMoji表情)#okxh#1#1
+沒#$cmd(newkey(ofbq$1),eMoji表情)#okxh#1#1
+
+喜欢#$cmd(newkey(xhqq$1),小鹤Q群)#okxh#1#1

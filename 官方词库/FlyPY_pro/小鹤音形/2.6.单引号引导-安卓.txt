@@ -1,0 +1,4 @@
+----syntax=cn, code
+----leadkey='
+----config=ime-ls.ini
+=	_
